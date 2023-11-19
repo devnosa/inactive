@@ -1,0 +1,133 @@
+.site-header{
+    background-color: transparent;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.site-header.logged-in {
+    top: 32px;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 10;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+
+}
+.header-menu {
+    display: flex;
+    gap: 50px;
+    height: 27px;
+   
+    
+}
+
+.header-menu a {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.header-text a {
+    color: white;
+}
+
+
+.header-menu a:hover {
+    color: #000000;
+}
+
+.header-logos {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.main-navigation.site-navigation {
+    width: auto;
+}
+
+.home-section-1 {
+    height: 1177px;
+    position: relative;
+}
+
+.home-section-1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home-section-image {
+    background-image: linear-gradient((180deg, rgba(0, 0, 0, 0.81) 0%, rgba(72, 72, 72, 0) 31.25%, rgba(158, 158, 158, 0) 77.6%, #FFFFFF 85.42%));
+}
+
+.hero-content {
+    position: absolute;
+    left: 50%;
+    top: 53.5%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.hero-title {
+    font-family: Open Sans;
+    font-size: 75px;
+    font-weight: 800;
+    line-height: 102px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+.hero-text {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    width: 600px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero-button-text {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    width: 214px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #00A651;
+    padding-top: 13px;
+
+}
+
+.hero-button-a {
+    text-decoration: none ;
+}
